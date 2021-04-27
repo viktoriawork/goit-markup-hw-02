@@ -205,3 +205,6 @@
   left: 976px;
   top: 174px;
 }
+.portfolio-list {
+  list-style: none;
+}
