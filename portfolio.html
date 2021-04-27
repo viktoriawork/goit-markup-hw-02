@@ -12,46 +12,70 @@
     />
     <title>WebStudio</title>
   </head>
-  <body>
+  <body class="body">
     <!-- Header -->
-    <header>
+    <header class="header">
       <nav class="navigation">
-        <a href="">WebStudio</a>
-        <ul>
-          <li><a href="./index.html">Студия</a></li>
-          <li><a href="./portfolio.html">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+        <a href="" class="linklogo"
+          ><span class="weblogo">Web</span
+          ><span class="studiologo">Studio</span></a
+        >
+        <ul class="menu">
+          <li class="menu-item">
+            <a href="./index.html" class="menu-link">Студия</a>
+          </li>
+          <li class="menu-item">
+            <a href="./portfolio.html" class="menu-link">Портфолио</a>
+          </li>
+          <li class="menu-item"><a href="" class="menu-link">Контакты</a></li>
         </ul>
       </nav>
 
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+      <ul class="contacts">
+        <li>
+          <a href="mailto:info@devstudio.com" class="contact-link"
+            >info@devstudio.com</a
+          >
+        </li>
 
-        <li><a href="tel:+38096111111">+38 096 111 11 11</a></li>
+        <li>
+          <a href="tel:+38096111111" class="contact-link">+38 096 111 11 11</a>
+        </li>
       </ul>
     </header>
     <!-- Main  Container-->
     <main>
       <!-- Filters -->
-      <section>
-        <ul>
-          <li>
-            <button type="button">Все</button>
+      <section class="filters">
+        <ul class="filters-list">
+          <li class="filters-item">
+            <button type="button" class="filters-button filters-button-1">
+              Все
+            </button>
           </li>
-          <li>
-            <button type="button">Веб-сайты</button>
+          <li class="filters-item">
+            <button type="button" class="filters-button filters-button-2">
+              Веб-сайты
+            </button>
           </li>
-          <li>
-            <button type="button">Приложения</button>
+          <li class="filters-item">
+            <button type="button" class="filters-button filters-button-3">
+              Приложения
+            </button>
           </li>
-          <li>
-            <button type="button">Дизайн</button>
+          <li class="filters-item">
+            <button type="button" class="filters-button filters-button-4">
+              Дизайн
+            </button>
           </li>
-          <li>
-            <button type="button">Маркетинг</button>
+          <li class="filters-item">
+            <button type="button" class="filters-button filters-button-5">
+              Маркетинг
+            </button>
           </li>
         </ul>
       </section>
+      <!-- Portfolio projects -->
       <section class="portfolio-projects">
         <ul>
           <li>
@@ -76,7 +100,7 @@
           </li>
           <li>
             <img
-              src="/images/imgseafood3.jpg "
+              src="/images/imgseafood3.jpg"
               alt="poster seafood restaurant"
               width="370"
               height="294"
@@ -148,13 +172,18 @@
       </section>
     </main>
     <!-- Footer -->
-    <footer>
-      <a href="">WebStudio</a>
-      <address>
-        <p>г. Киев, пр-т Леси Украинки, 26</p>
+    <footer class="footer">
+      <a href="" class="linklogo">
+        <span class="weblogo-footer">Web</span
+        ><span class="studiologo-white">Studio</span>
+      </a>
+      <address class="address">
+        <p class="adress-p">г. Киев, пр-т Леси Украинки, 26</p>
         <br />
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a><br />
-        <a href="tel:+380961111111">+38 096 111 11 11</a>
+        <a href="mailto:info@devstudio.com" class="adress-contact"
+          >info@devstudio.com</a
+        ><br />
+        <a href="tel:+380961111111" class="adress-contact">+38 096 111 11 11</a>
       </address>
     </footer>
   </body>
