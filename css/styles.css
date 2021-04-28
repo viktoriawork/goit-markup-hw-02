@@ -13,6 +13,10 @@
   margin-left: auto;
   margin-right: auto;
 }
+.section-title {
+  font-weight: 700;
+  color: #000;
+}
 /* -------------HEADER------------ */
 .header .container {
   display: flex;
@@ -131,7 +135,6 @@
   line-height: 1.14;
   /* letter-spacing: 0.03em; */
   text-transform: uppercase;
-  color: #000;
 }
 .features-par {
   font-size: 14px;
@@ -144,7 +147,6 @@
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
-  color: #000;
   /* letter-spacing: 0.03em; */
 }
 
