@@ -7,6 +7,40 @@
 .list {
   list-style: none;
 }
+.container {
+  width: 1200px;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* -------------HEADER------------ */
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.menu {
+  display: flex;
+}
+.menu-item:not(:last-child) {
+  margin-right: 50px;
+}
+.menu-item:first-child {
+  margin-left: 90px;
+}
+.contacts {
+  display: flex;
+}
+.menu-link,
+.contact-link {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+}
 .header {
   background-color: #ffffff;
 }
@@ -62,6 +96,7 @@
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  margin: 0px;
 
   letter-spacing: 0.06em;
   text-transform: uppercase;
